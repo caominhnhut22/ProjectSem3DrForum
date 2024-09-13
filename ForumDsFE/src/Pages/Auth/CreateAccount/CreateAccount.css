@@ -1,0 +1,73 @@
+.create-account-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Canh giữa theo chiều dọc */
+    height: auto;
+    margin-top: 10px; 
+}
+
+.create-account-flex-container > div {
+    border-radius: 7px;
+    background-color: #FFF;
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left; /* Căn văn bản sang trái */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+}
+
+.hr-create-account {
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.text-create-account {
+    font-size: 18px;
+    color: gray;
+    margin: 10px auto;
+}
+
+.input-create-account {
+    border: 2px solid #F1F1F1;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.select-create-account {
+    border: 2px solid #F1F1F1;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.texts-create-account {
+    font-size: 18px;
+    color: gray;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.bt-submit-create-account {
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #1877f2;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.login-create-account {
+    margin: 10px auto;
+    text-align: center;
+}

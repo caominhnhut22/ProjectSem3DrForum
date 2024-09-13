@@ -1,0 +1,112 @@
+/* Thêm các styles này vào cuối file CSS của bạn */
+
+/* Set a max-width for the page */
+.home-flex-container {
+    max-width: 100%; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 10px; /* Add padding for better spacing on the sides */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+/* Style for each div inside home-flex-container */
+.home-flex-container > div {
+    flex: 1; /* Allow each div to grow and shrink */
+    box-sizing: border-box; /* Include padding and border in the width */
+    background-color: #FFF;
+    width: 100%;
+    max-width: fit; /* Adjust the max-width for each div */
+    height: auto;
+    margin: 10px; /* Add margin for better spacing between items */
+    padding: 20px; /* Add more padding for better spacing inside the div */
+    font-size: 18px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .home-flex-container > div {
+        max-width: 100%; /* Set to 100% width on smaller screens */
+    }
+
+    .content {
+        margin-left: 0; /* Remove margin on the left for full width */
+        padding: 16px;
+    }
+  
+}
+
+.home-flex-container {
+    display: flex;
+  }
+  
+  
+  /* Styles cho content */
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Styles cho home-post */
+  .home-post {
+    background-color: #FFF;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles cho user-table */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .user-table img {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Styles cho home-hr */
+  .home-hr {
+    border: none;
+    background-color: gray;
+    height: 1px;
+    margin: 20px 0;
+  }
+
+
+  .nav-admin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .nav-admin{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-admin{
+    font-weight: bold;
+}
+

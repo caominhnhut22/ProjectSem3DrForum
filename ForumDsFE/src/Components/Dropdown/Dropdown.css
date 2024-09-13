@@ -1,0 +1,55 @@
+/* Dropdown.css */
+
+.dropdown {
+  position: relative;
+}
+
+.btn.login-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 16px;
+}
+
+.fa-caret-down {
+  margin-left: 8px;
+}
+
+.dropdown-menu {
+  background: red;
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+  display: none; /* Should toggle between none and block */
+} 
+
+.dropdown-menu.clicked {
+  display: block; /* Should toggle between none and block */
+}
+
+.dropdown-menu li {
+  background: #62d2a2;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #62d2a2;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

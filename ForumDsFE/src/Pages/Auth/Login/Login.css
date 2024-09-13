@@ -1,0 +1,111 @@
+.login-flex-container {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+}
+
+.login-flex-container > div {
+    padding: 10px;
+}
+
+.welcome-hutech-forum {
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.HUTECH {
+    color: blue;
+}
+
+.welcome {
+    color: black;
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.form-login {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    line-height: 75px;
+    background-color: #FFF;
+}
+
+.input-login {
+    border: 2px solid #F1F1F1;
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.bt-login {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #1877f2;
+}
+
+.forgot-password {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.forgot-password:hover {
+    color: #1877f2;
+    text-decoration: underline;
+}
+
+.hr-login {
+    border: none;
+    height: 2px;
+    background-color: silver;
+}
+
+.bt-logins {
+    border: none;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    color: #FFF;
+    background-color: #42b72a;
+    cursor: pointer;
+}
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .loading-spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #62d2a2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

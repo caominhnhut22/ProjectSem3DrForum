@@ -1,0 +1,36 @@
+.home-flex-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-top: 20px; 
+}
+
+.home-flex-containers > div {
+    background-color: #FFF;
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    align-self: center;
+}
+
+.bt-follow {
+    border: none;
+    width: 95%;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 10px;
+    background-color: deeppink;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bt-follow.following {
+    background-color: Gainsboro;
+    color: black;
+}

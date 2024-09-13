@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); 
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F1F1F1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; /* Set the base font size */
+  line-height: 1.6; /* Adjust line height for better readability */
+  color: #333; /* Set the default text color */
+}
+
+* {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin: 0;
+  padding: 0;
+}
+
+      
